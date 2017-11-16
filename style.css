@@ -39,7 +39,7 @@ body
 {
 	float: left;
 	font-family: 'Josefin Sans', sans-serif;
-	font-size: 40px;
+	font-size: 45px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	text-align: left;
@@ -52,8 +52,13 @@ body
 	height: 142px;
 	background-color: #3095D3;
 	float: left;
+	text-align: center;
 }
 
+.tile1:hover
+{
+	background-color: #2084c2;
+}
 .tile2
 {
 	margin: 10px;
@@ -61,6 +66,12 @@ body
 	height: 142px;
 	background-color: #666666;
 	float: left;
+	text-align: center;
+}
+
+.tile2:hover
+{
+	background-color: #555555;
 }
 
 .tile3
@@ -70,22 +81,34 @@ body
 	height: 142px;
 	background-color: #93c748;
 	float: left;
+	text-align: center;
+}
+
+.tile3:hover
+{
+	background-color: #82b637;
 }
 
 .tile4
 {
 	margin: 10px;
-	width: 480px;
-	height: 142px;
+	width: 420px;
+	height: 82px;
 	background-color: #ee5a32;
+	text-align: center;
+	font-size: 26px;
+	padding: 30px;
+	line-height: 115%;
 }
 
 .tile5
 {
 	margin: 10px;
-	width: 480px;
-	height: 304px;
+	width: 420px;
+	height: 244px;
 	background-color: #666666;
+	text-align: justify;
+	padding: 30px;
 }
 
 .li
@@ -97,13 +120,23 @@ body
 	float: left;
 }
 
+.li:hover
+{
+	background-color: #0066a4;
+}
+
 .gh
 {
 	margin: 10px;
 	width: 105px;
 	height: 142px;
-	background-color: #f5f5f5;
+	background-color: #93c748;
 	float: left;
+}
+
+.gh:hover
+{
+	background-color: #82b637;
 }
 
 .fb
@@ -115,6 +148,11 @@ body
 	float: left;
 }
 
+.fb:hover
+{
+	background-color: #2a4887;
+}
+
 .gm
 {
 	margin: 10px;
@@ -122,4 +160,33 @@ body
 	height: 142px;
 	background-color: #c71610;
 	float: left;
+}
+
+.gm:hover
+{
+	background-color: #b60500;
+}
+
+a.tilelink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 230px;
+	height: 142px;
+}
+
+a.sociallink
+{
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	width: 105px;
+	height: 142px;
+}
+
+a.tilelink2
+{
+	color: #ffffff;
+	text-decoration: none;
 }
